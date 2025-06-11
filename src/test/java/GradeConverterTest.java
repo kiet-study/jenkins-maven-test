@@ -90,7 +90,7 @@ public class GradeConverterTest {
     @Test
     public void testConvert13() throws Exception {
         String expected = "C";
-        String actual = converter.convert(80);
+        String actual = converter.convert(74);
         assertEquals(expected,actual);
     }
 }
